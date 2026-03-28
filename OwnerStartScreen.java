@@ -44,7 +44,7 @@ public class OwnerStartScreen extends JPanel implements ActionListener {
         } else if (e.getSource() == customerButton) {
             app.showPanel(new OwnerCustomerScreen(app, store));
         } else if (e.getSource() == logoutButton) {
-            // Requirement: When the owner clicks the button [Logout], she should be taken back to the login-screen [cite: 70]
+            // Requirement: When the owner clicks the button [Logout], she should be taken back to the login-screen 
             app.showPanel(new LoginScreen(app, store)); 
         }
     }
